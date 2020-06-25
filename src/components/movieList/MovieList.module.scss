@@ -1,0 +1,48 @@
+.imageStyle{
+    padding:15px;
+    border-radius:25px;
+}
+.movieBg{
+    margin-top: 5%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-image: linear-gradient(to right, #021331 , #4fc3f7);
+}
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+.movieBg{
+    width:105%;
+}    
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .imageStyle{
+        width:338px;
+    }  
+    .movieBg{
+        width:100%;
+    }    
+}
+.dropdownStyle{
+    margin-left:20px;
+}
+.dropdownStyle {
+    h4{
+        font-size:2rem;
+        color:#3F51B5;
+    }
+}
+.dropdownStyle {
+    select {
+        margin: 3px;
+        width: 200px;
+        padding: 3px 35px 5px 5px;
+        font-size: 18px;
+        border: 1px solid #3F51B5 !important;
+        height: 50px;
+        border-radius: 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url('/src/assets/downArrow.png') 96% / 15% no-repeat #B3E5FC;
+      }
+}

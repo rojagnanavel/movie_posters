@@ -1,0 +1,33 @@
+$height: 300px;
+.imageStyle{
+    padding:15px;
+    border-radius:25px;
+    height:$height;
+    width:303px;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .imageStyle{
+        width:325px;
+    } 
+    .movieBg{
+        width:96%;
+    }     
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .imageStyle{
+        width:329px;
+    }      
+    .movieBg{
+        width:98%;
+    }  
+}
+
+.movieBg{
+    background-image: linear-gradient(to right, #021331 , #4fc3f7);
+}
+.imageAlignment{
+    display:flex;
+}
+.metaDataColor{
+    color:white;
+}

@@ -1,0 +1,14 @@
+.navHeader {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbarLinkActive.navLink{
+    color: Red;
+    font-size:3rem;
+    font-weight:bold;
+}
+.navHeader .navLink{
+    font-size:2rem;
+}

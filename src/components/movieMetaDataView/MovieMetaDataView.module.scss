@@ -1,0 +1,36 @@
+.poster{
+    padding:15px;
+    border-radius:25px;
+    height:300px;
+    width:350px;
+}
+.movieBg{
+    margin-top:30px;
+    background-image: linear-gradient(to right, #021331 , #4fc3f7);
+    color:white;
+    display:flex;
+    font-size:1.25rem;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .movieBg{
+        flex-direction: column;
+    }
+    .poster{
+        width:315px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .poster{
+        width:346px;
+    }      
+}
+.metaDataStyle{
+    margin:20px;
+}
+.movieBg{
+    span{
+        color:red;
+        font-size:1.3rem;
+        font-weight:bold;
+    }
+} 
